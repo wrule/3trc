@@ -1,0 +1,12 @@
+.p {
+  display: flex;
+  justify-content: center;
+  img {
+    width: 64px;
+    height: 64px;
+    border-radius: 64px;
+    &:not(:last-of-type) {
+      margin-right: 10px;
+    }
+  }
+}
